@@ -13,6 +13,9 @@ body {
   header {
       padding: 20px 35px;
       background-color: #39a6b2;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
   }
 
   header h1 {
@@ -29,7 +32,6 @@ body {
   }
 
   header nav {
-      float: right;
       margin: 7px 0;
   }
 
@@ -228,42 +230,51 @@ body {
   }
 
   /* REACH OUT STYLES START */
-   .contact {
-        text-align: center;
-        background: #024e76;
-    }
-   .contact h2 {
-       color: #fce138;
-   }
+.contact {
+  text-align: center;
+  background: #024e76;
+}
 
-   .contact-info iframe {
-    width: 400px;
-    height: 400px;
-  }
+.contact h2 {
+  color: #fce138;
+}
 
-  .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: white;
-  }
+.contact-info iframe {
+  width: 400px;
+height: 400px;
+}
 
-  .contact-info h3 {
-    color: #fce138;
-    font-size: 32px;
-  }
-  
-  .contact-info p, .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 20px;
-    font-style: normal;
-  }
-  
-  .contact-info a {
-    color: #fce138;
-  }
-  
-  /* REACH OUT STYLES END */
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
+/* REACH OUT STYLES END */
+
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
